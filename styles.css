@@ -1,0 +1,75 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.upload-container {
+  background: #fff;
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  width: 400px;
+  transition: transform 0.3s ease;
+}
+.upload-container:hover {
+  transform: translateY(-5px);
+}
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #222;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+label {
+  display: block;
+  margin-top: 1.2rem;
+  font-weight: 600;
+  color: #444;
+  font-size: 1rem;
+}
+input[type="text"],
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin-top: 0.4rem;
+  border: 2px solid #d1d9e6;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type="text"]:focus,
+textarea:focus,
+input[type="file"]:focus {
+  outline: none;
+  border-color: #2575fc;
+  box-shadow: 0 0 8px rgba(37,117,252,0.5);
+}
+button {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #2575fc;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(37,117,252,0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover {
+  background-color: #184ed9;
+  box-shadow: 0 8px 20px rgba(24,78,217,0.6);
+}
